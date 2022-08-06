@@ -6,4 +6,5 @@ git add . -> add todos arquivos para commitar
 git commit -m "[mensagem]" -> commita com a mensagem
 git remote add origin https://github.com/ArthurZL/[nome do repositório] -> vincula o repositório criado no git ao push que será dado
 git push --set-upstream origin master -> cria a branch master e sobe os arquivos para ela
-git restore --staged [nome arquivo].[tipo] -> NÃO USA ESSA MERDA ATÉ ENTENDER, USA OS COMANDOS DE HEAD~1
+git reset HEAD~1 - Deu commit, mas não deu push e quer voltar
+git revert HEAD -> deu commit e pushed e quer voltar, reverte os commits locais
