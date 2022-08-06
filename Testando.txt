@@ -1,0 +1,9 @@
+git init -> cria a pasta .git
+git status -> verifica o status antes do commit
+git add "[nome arquivo].[tipo]" -> add um arquivo pra commitar
+git reset -> remove um arquivo que iria ser commitado
+git add . -> add todos arquivos para commitar
+git commit -m "[mensagem]" -> commita com a mensagem
+git remote add origin https://github.com/ArthurZL/[nome do repositório] -> vincula o repositório criado no git ao push que será dado
+git push --set-upstream origin master -> cria a branch master e sobe os arquivos para ela
+git restore --staged [nome arquivo].[tipo] -> NÃO USA ESSA MERDA ATÉ ENTENDER, USA OS COMANDOS DE HEAD~1
