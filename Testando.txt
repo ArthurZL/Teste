@@ -1,7 +1,7 @@
 git init -> cria a pasta .git
 git status -> verifica o status antes do commit
 git add "[nome arquivo].[tipo]" -> add um arquivo pra commitar
-git reset -> remove um arquivo que iria ser commitado
+git reset -> remove um arquivo que iria ser commitado (remove do add)
 git add . -> add todos arquivos para commitar
 git commit -m "[mensagem]" -> commita com a mensagem
 git remote add origin https://github.com/ArthurZL/[nome do repositório] -> vincula o repositório criado no git ao push que será dado
@@ -10,3 +10,7 @@ git reset HEAD~1 - Deu commit, mas não deu push e quer voltar
 git revert HEAD -> deu commit e pushed e quer voltar, reverte os commits locais
 git reflog -> monstra o histórico
 git reset --har [id fornecido no reflog] -> aponta para a versão escolhida
+git branch -> monstras as ramificações disponíveis
+git branch [nome qualquer] -> cria um novo ramo com o nome definido
+git checkout [nome da branch] -> muda da branch atual para a branch que foi passado o nome
+git push --set-upstream origin [nome da branch a enviar] -> subir para o GitHub essa nova branch já com as alterações
