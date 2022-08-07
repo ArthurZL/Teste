@@ -16,3 +16,4 @@ git branch [nome qualquer] -> cria um novo ramo com o nome definido
 git checkout [nome da branch] -> muda da branch atual para a branch que foi passado o nome
 git push --set-upstream origin [nome da branch a enviar] -> subir para o GitHub essa nova branch já com as alterações
 git merge [nome da branch que será puxada] -> Uni na branch que está atualmente o conteúdo da branch que tem o nome que foi inserido no comando
+git checkout -b [nome da branch que será criada] [nome da branch a se basear] -> cia nova branch usando de base a branch inserida
