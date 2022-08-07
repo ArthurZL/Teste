@@ -8,3 +8,5 @@ git remote add origin https://github.com/ArthurZL/[nome do repositório] -> vinc
 git push --set-upstream origin master -> cria a branch master e sobe os arquivos para ela
 git reset HEAD~1 - Deu commit, mas não deu push e quer voltar
 git revert HEAD -> deu commit e pushed e quer voltar, reverte os commits locais
+git reflog -> monstra o histórico
+git reset --har [id fornecido no reflog] -> aponta para a versão escolhida
