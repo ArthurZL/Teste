@@ -10,7 +10,9 @@ git reset HEAD~1 - Deu commit, mas não deu push e quer voltar
 git revert HEAD -> deu commit e pushed e quer voltar, reverte os commits locais
 git reflog -> monstra o histórico
 git reset --har [id fornecido no reflog] -> aponta para a versão escolhida
+git pull -> Traz as informações mais atualizadas do repositório remoto
 git branch -> monstras as ramificações disponíveis
 git branch [nome qualquer] -> cria um novo ramo com o nome definido
 git checkout [nome da branch] -> muda da branch atual para a branch que foi passado o nome
 git push --set-upstream origin [nome da branch a enviar] -> subir para o GitHub essa nova branch já com as alterações
+git merge [nome da branch que será puxada] -> Uni na branch que está atualmente o conteúdo da branch que tem o nome que foi inserido no comando
